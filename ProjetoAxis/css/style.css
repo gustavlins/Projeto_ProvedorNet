@@ -1,0 +1,117 @@
+body{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    background-image: url("../images/logo.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 200px;
+}
+
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(170, 187, 199, 0.5);
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.item {
+    color: white;
+    width: 100px;
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(148, 69, 223);
+    margin: 5px;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+
+.item:hover{
+    background-color: rgb(103, 34, 168);
+    transition: 1s;
+}
+
+#titlePlanos{
+    color: white;
+    padding-top: 70px;
+    font-size: 78px; 
+    text-align: center;
+    background-image: linear-gradient(rgba(170, 187, 199, 0.5), rgba(170, 187, 199, 0));
+    border: none;
+    padding-bottom: 40px;
+}
+
+.velocidade{
+    background-color: rgb(148, 69, 223);
+    border-bottom: gray solid 1px;
+}
+
+h4{
+    padding: 30px;
+}
+
+.content{
+    width: 350px;
+    height: 350px;
+    margin: 40px;
+    float: left;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(92, 130, 167), rgb(118, 169, 218));
+    box-shadow: 5px 10px #888888;
+    color: white;
+}
+
+
+#contratar{
+    width: 170px;
+    height: 30px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: rgb(148, 69, 223);
+}
+
+#contratar:hover{
+    background-color: rgb(107, 21, 187);
+    transition: 1s;
+}
+
+
+#contentvisao{
+    width: 700px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#titleSobre{
+    color: white;
+    padding-top: 70px;
+    font-size: 78px; 
+    text-align: center;
+    background-image: linear-gradient(rgba(170, 187, 199, 0.5), rgba(170, 187, 199, 0));
+    border: none;
+    padding-bottom: 40px;
+}
